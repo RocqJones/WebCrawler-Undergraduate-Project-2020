@@ -1,0 +1,11 @@
+Main webpage
+http://www.mkulimayoung.com/
+https://farmbizafrica.com/
+
+Reference: https://farmbizafrica.com/market/2181-online-platform-enables-farmers-sell-and-buy-all-types-of-farm-produce
+
+ 1. Category 1: Cereals
+ http://www.mkulimayoung.com/market?tags=Cereals
+ 
+ 2. Crawl comments
+ https://farmbizafrica.com/market-place
