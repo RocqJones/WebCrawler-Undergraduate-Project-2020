@@ -3,7 +3,7 @@ Bachelor of Business Information Technology
 
 ## Project structure (dir)
 Undergraduate-Project-2020/
-├── LICENSE
+<br>├── LICENSE
 <br>├── main
 <br>│   ├── backend
 <br>│   │   ├── database.py
