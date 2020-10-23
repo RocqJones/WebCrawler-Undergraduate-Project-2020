@@ -12,9 +12,6 @@ Undergraduate-Project-2020/
 <br>│   │   └── __pycache__
 <br>│   │       └── database.cpython-37.pyc
 <br>│   ├── frontend
-<br>│   │   ├── heroku_deployment_guide.txt
-<br>│   │   └── web_dir
-<br>│   │       └── frontend.py
 <br>│   └── test_db.py
 <br>├── README.md
 <br>└── try-out
