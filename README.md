@@ -33,3 +33,6 @@ Undergraduate-Project-2020/
 ## Crawler Websites
 * [Mkulima Young](http://www.mkulimayoung.com/)
 * [Farmbiz Africa](https://farmbizafrica.com/)
+
+## Handling AJAX Loading and Infinite Loading
+Sometimes, fetching content from dynamic sites is actually straightforward, as they are highly dependent on API calls. In asynchronous loading, most of the time, data is loaded by making GET and POST requests; you can watch these API calls in the Network tab of Developer Tools.
