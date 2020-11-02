@@ -9,3 +9,6 @@ Reference: https://farmbizafrica.com/market/2181-online-platform-enables-farmers
  
  2. Crawl comments
  https://farmbizafrica.com/market-place
+ 
+ CLONE PROJECT
+ https://github.com/StartBootstrap/startbootstrap-sb-admin-2
