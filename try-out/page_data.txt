@@ -1,0 +1,916 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="M-Farm Ltd" property="og:site_name"/>
+  <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <title>
+   M-Farm · Marketplace
+  </title>
+  <link href="/assets/application-5918eb0c367c5bfcf95fe9158d0955e934b984ea51c3a786c492885e65e572ec.css" media="all" rel="stylesheet"/>
+  <meta content="authenticity_token" name="csrf-param"/>
+  <meta content="DsLuwRXdeWpQiwZ+iweeY8wwk/9QUVu2DDylITK5s0YxyzPrKp5LHTqi/Yucr3Sye8i3sZL/zZ+2h8D9YVTGUQ==" name="csrf-token"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,300" rel="stylesheet" type="text/css"/>
+  <!--[if IE]>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">
+<![endif]-->
+  <script async="" src="//www.google-analytics.com/analytics.js">
+  </script>
+  <script async="" src="//mfarm-ke.disqus.com/count.js" type="text/javascript">
+  </script>
+  <style type="text/css">
+   .jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}
+  </style>
+ </head>
+ <body class="app">
+  <div class="navbar navbar-default navbar-fixed-top">
+   <div class="container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="/">
+      <img alt="Mfarm smaller colored" class="brand-logo" src="/assets/mfarm-smaller-colored-fd8391d6a6065eaed8dd4935062aefc1a0fda473b3d23e75e4b89132bde190d3.png"/>
+     </a>
+     <button class="navbar-toggle" data-target="#navbar-main" data-toggle="collapse" type="button">
+      <span class="icon-bar">
+      </span>
+      <span class="icon-bar">
+      </span>
+      <span class="icon-bar">
+      </span>
+     </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-main">
+     <ul class="nav navbar-nav">
+      <li class="">
+       <a href="/trends/yearly">
+        Daily Prices
+       </a>
+      </li>
+      <li class="">
+       <a href="/blog">
+        Blog
+       </a>
+      </li>
+      <li class="active">
+       <a href="/posts">
+        Marketplace
+       </a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav navbar-right">
+      <li class="">
+       <a href="/login">
+        Sign in
+       </a>
+      </li>
+      <li>
+       <a class="navbar-btn btn btn-default" href="/register/cmon_let_me_in" id="signup-btn">
+        Sign up
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <div class="container">
+   <div class="page-header">
+    <h2 class="section-title">
+     <span>
+      <a href="/posts">
+       MarketPlace
+      </a>
+     </span>
+    </h2>
+   </div>
+   <div class="row">
+    <div class="col-lg-9">
+     <div class="row">
+      <div class="col-md-4">
+       <div class="post">
+        <a href="/posts/4384">
+         <img alt="No post image" class="image thumbnail" src="/media/W1siZmYiLCJwdWJsaWMvaW1hZ2VzL25vLXBvc3QtaW1hZ2UucG5nIl0sWyJwIiwidGh1bWIiLCIyMTB4MTQwIyJdXQ/b246476e96fd58ce/no-post-image.png"/>
+        </a>
+        <div class="description">
+         <h4>
+          <a href="/posts/4384">
+           Potatoes shangi
+          </a>
+         </h4>
+         <p>
+          Markies potatoes for Chips and Crisps
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         07 Nov 10:17
+        </small>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="post">
+        <a href="/posts/4383">
+         <img alt="Img 20201028 wa0005" class="image thumbnail" src="/media/W1siZiIsIjIwMjAvMTEvMDUvOWFvOXNzbGhmNV9JTUdfMjAyMDEwMjhfV0EwMDA1LmpwZyJdLFsicCIsInRodW1iIiwiMjEweDE0MCMiXV0/eb2345b70e612942/IMG-20201028-WA0005.jpg"/>
+        </a>
+        <div class="description">
+         <h4>
+          <a href="/posts/4383">
+           Cabbages
+          </a>
+         </h4>
+         <p>
+          F1cabbages
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         05 Nov 12:44
+        </small>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="post">
+        <a href="/posts/4382">
+         <img alt="Cabbage" class="image thumbnail" src="/media/W1siZiIsIjIwMjAvMTEvMDUvNjV5eGdqdXA0Z19jYWJiYWdlLmpwZWciXSxbInAiLCJ0aHVtYiIsIjIxMHgxNDAjIl1d/9ed722ae30ebbbcc/cabbage.jpeg"/>
+        </a>
+        <div class="description">
+         <h4>
+          <a href="/posts/4382">
+           Cabbages
+          </a>
+         </h4>
+         <p>
+          Mature Victoria F1 cabbage. Price negotiable
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         05 Nov 10:49
+        </small>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="post">
+        <a href="/posts/4381">
+         <img alt="Images%20%2871%29" class="image thumbnail" src="/media/W1siZiIsIjIwMjAvMTEvMDMvYng4aDB2cXoyX2ltYWdlc183MV8uanBlZyJdLFsicCIsInRodW1iIiwiMjEweDE0MCMiXV0/f55b608636c98582/images%20%2871%29.jpeg"/>
+        </a>
+        <div class="description">
+         <h4>
+          <a href="/posts/4381">
+           Cabbages
+          </a>
+         </h4>
+         <p>
+          Cabbage supply all round. Transport at your cost from market to destination
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         03 Nov 12:47
+        </small>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="post">
+        <a href="/posts/4380">
+         <img alt="1%20ke57ri9xq2lswldxuw9w6w" class="image thumbnail" src="/media/W1siZiIsIjIwMjAvMTEvMDIvNzdhemlqNHo1dl8xX2tlNTdyaTl4cTJsc1dMRFh1dzl3NncuanBlZyJdLFsicCIsInRodW1iIiwiMjEweDE0MCMiXV0/d24dcabe9ec5dccc/1%20ke57ri9xq2lsWLDXuw9w6w.jpeg"/>
+        </a>
+        <div class="description">
+         <h4>
+          <a href="/posts/4380">
+           Sweet Potatoes
+          </a>
+         </h4>
+         <p>
+          Orange fleshed Sweet Potatoe Reach me at: isodmay@gmail.com
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         02 Nov 18:26
+        </small>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="post">
+        <a href="/posts/4379">
+         <img alt="Img 20201025 wa0060" class="image thumbnail" src="/media/W1siZiIsIjIwMjAvMTEvMDIvNnN1bGQwaGo4aF9JTUdfMjAyMDEwMjVfV0EwMDYwLmpwZyJdLFsicCIsInRodW1iIiwiMjEweDE0MCMiXV0/2d10577e92cf9b3a/IMG-20201025-WA0060.jpg"/>
+        </a>
+        <div class="description">
+         <h4>
+          <a href="/posts/4379">
+           Onions Dry
+          </a>
+         </h4>
+         <p>
+          We have tons of red and white onions from Iringa, Tanzania that can constantly be supplied to the...
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         02 Nov 15:05
+        </small>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="post">
+        <div class="description">
+         <h4>
+          <a href="/posts/4378">
+           Cauliflower
+          </a>
+         </h4>
+         <p>
+          Cauliflower ready for harvest from 9/11/2020
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         02 Nov 14:33
+        </small>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="post">
+        <a href="/posts/4375">
+         <img alt="Profile%20mk%20y" class="image thumbnail" src="/media/W1siZiIsIjIwMjAvMTAvMzEvNmpjdXlqZjk5c19wcm9maWxlX21rX3kuanBnIl0sWyJwIiwidGh1bWIiLCIyMTB4MTQwIyJdXQ/2c6532167e38c5e0/profile%20mk%20y.jpg"/>
+        </a>
+        <div class="description">
+         <h4>
+          <a href="/posts/4375">
+           Spinach
+          </a>
+         </h4>
+         <p>
+          organically grown spinach/collider as a companion
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         31 Oct 06:00
+        </small>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="post">
+        <a href="/posts/4374">
+         <img alt="20201002 200352" class="image thumbnail" src="/media/W1siZiIsIjIwMjAvMTAvMjgvOHRtMTZyYXpqal8yMDIwMTAwMl8yMDAzNTIuanBnIl0sWyJwIiwidGh1bWIiLCIyMTB4MTQwIyJdXQ/1411b7e37b5631f9/20201002_200352.jpg"/>
+        </a>
+        <div class="description">
+         <h4>
+          <a href="/posts/4374">
+           Onions Dry
+          </a>
+         </h4>
+         <p>
+          Well dried &amp; Medium sized onions
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         28 Oct 11:56
+        </small>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="post">
+        <div class="description">
+         <h4>
+          <a href="/posts/4373">
+           Onions Dry
+          </a>
+         </h4>
+         <p>
+          Dry Onions in Bulk
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         28 Oct 11:44
+        </small>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="post">
+        <a href="/posts/4372">
+         <img alt="Img 20200927 wa0022" class="image thumbnail" src="/media/W1siZiIsIjIwMjAvMTAvMjYvOTZ6NXE2cmpkaF9JTUdfMjAyMDA5MjdfV0EwMDIyLmpwZWciXSxbInAiLCJ0aHVtYiIsIjIxMHgxNDAjIl1d/5936407487911363/IMG-20200927-WA0022.jpeg"/>
+        </a>
+        <div class="description">
+         <h4>
+          <a href="/posts/4372">
+           Onions Dry
+          </a>
+         </h4>
+         <p>
+          Dry onions in nairobi
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         26 Oct 06:14
+        </small>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="post">
+        <div class="description">
+         <h4>
+          <a href="/posts/4371">
+           Chia Seeds
+          </a>
+         </h4>
+         <p>
+          Of high quality
+         </p>
+        </div>
+        <small class="post-info">
+         <i class="fa fa-calendar-o">
+         </i>
+         25 Oct 08:01
+        </small>
+       </div>
+      </div>
+     </div>
+     <ul class="pagination pagination">
+      <li class="prev disabled">
+       <span>
+        ← Previous
+       </span>
+      </li>
+      <li class="active">
+       <span>
+        1
+       </span>
+      </li>
+      <li>
+       <a href="/posts?page=2" rel="next">
+        2
+       </a>
+      </li>
+      <li>
+       <a href="/posts?page=3">
+        3
+       </a>
+      </li>
+      <li>
+       <a href="/posts?page=4">
+        4
+       </a>
+      </li>
+      <li>
+       <a href="/posts?page=5">
+        5
+       </a>
+      </li>
+      <li>
+       <a href="/posts?page=6">
+        6
+       </a>
+      </li>
+      <li>
+       <a href="/posts?page=7">
+        7
+       </a>
+      </li>
+      <li>
+       <a href="/posts?page=8">
+        8
+       </a>
+      </li>
+      <li>
+       <a href="/posts?page=9">
+        9
+       </a>
+      </li>
+      <li class="disabled">
+       <span>
+        …
+       </span>
+      </li>
+      <li>
+       <a href="/posts?page=215">
+        215
+       </a>
+      </li>
+      <li>
+       <a href="/posts?page=216">
+        216
+       </a>
+      </li>
+      <li class="next">
+       <a href="/posts?page=2" rel="next">
+        Next →
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="col-lg-3">
+     <a class="btn btn-success btn-block" href="/posts/new">
+      Sell Something
+     </a>
+     <br/>
+     <div class="panel panel-default">
+      <div class="panel-heading">
+       <h3 class="panel-title">
+        <i class="fa fa-filter">
+        </i>
+        Filter
+       </h3>
+      </div>
+      <form accept-charset="UTF-8" action="/posts" class="panel-body" method="get">
+       <input name="utf8" type="hidden" value="✓"/>
+       <div class="form-group">
+        <select aria-hidden="true" class="form-control select2 select2-hidden-accessible" id="product" name="product" tabindex="-1">
+         <option value="">
+          Select Product
+         </option>
+         <option value="44">
+          Dry Maize
+         </option>
+         <option value="45">
+          Green Maize
+         </option>
+         <option value="46">
+          Finger Millet
+         </option>
+         <option value="47">
+          Sorghum
+         </option>
+         <option value="48">
+          Wheat
+         </option>
+         <option value="49">
+          Beans Canadian
+         </option>
+         <option value="50">
+          Beans Rosecoco
+         </option>
+         <option value="51">
+          Beans Mwitemania
+         </option>
+         <option value="52">
+          Mwezi Moja
+         </option>
+         <option value="53">
+          Beans Dolichos (Njahi)
+         </option>
+         <option value="54">
+          Green Gram
+         </option>
+         <option value="55">
+          Cowpeas
+         </option>
+         <option value="56">
+          Fresh Peas
+         </option>
+         <option value="57">
+          Groundnuts
+         </option>
+         <option value="58">
+          Red Irish Potatoes
+         </option>
+         <option value="59">
+          White Irish Potatoes
+         </option>
+         <option value="60">
+          Cassava Fresh
+         </option>
+         <option value="61">
+          Sweet Potatoes
+         </option>
+         <option value="62">
+          Cabbages
+         </option>
+         <option value="63">
+          Cooking Bananas
+         </option>
+         <option value="64">
+          Ripe Bananas
+         </option>
+         <option value="65">
+          Carrots
+         </option>
+         <option value="66">
+          Tomatoes
+         </option>
+         <option value="67">
+          Onions Dry
+         </option>
+         <option value="68">
+          Spring Onions
+         </option>
+         <option value="69">
+          Chillies
+         </option>
+         <option value="70">
+          Cucumber
+         </option>
+         <option value="71">
+          Capsicums
+         </option>
+         <option value="72">
+          Brinjals
+         </option>
+         <option value="73">
+          Cauliflower
+         </option>
+         <option value="74">
+          Lettuce
+         </option>
+         <option value="75">
+          Passion Fruits
+         </option>
+         <option value="76">
+          Oranges
+         </option>
+         <option value="77">
+          Lemons
+         </option>
+         <option value="78">
+          Mangoes Local
+         </option>
+         <option value="79">
+          Mangoes Apple
+         </option>
+         <option value="80">
+          Limes
+         </option>
+         <option value="81">
+          Pineapples
+         </option>
+         <option value="82">
+          Pawpaw
+         </option>
+         <option value="83">
+          Avocado
+         </option>
+         <option value="84">
+          Kales
+         </option>
+         <option value="92">
+          Eggs(Grade)
+         </option>
+         <option value="93">
+          Eggs(local/kienyeji)
+         </option>
+         <option value="94">
+          Watermelons
+         </option>
+         <option value="95">
+          Arrow Roots
+         </option>
+         <option value="96">
+          Coriander
+         </option>
+         <option value="97">
+          French Beans
+         </option>
+         <option value="98">
+          Potatoes shangi
+         </option>
+         <option value="99">
+          Yellow Capsicums
+         </option>
+         <option value="101">
+          Colored capsicums
+         </option>
+         <option value="102">
+          Rice
+         </option>
+         <option value="103">
+          Strawberries
+         </option>
+         <option value="104">
+          Garden Peas
+         </option>
+         <option value="105">
+          RoseMary
+         </option>
+         <option value="107">
+          Snow Peas
+         </option>
+         <option value="108">
+          Sugar Snap
+         </option>
+         <option value="109">
+          Mushroom
+         </option>
+         <option value="110">
+          Courgettes
+         </option>
+         <option value="111">
+          Beetroot
+         </option>
+         <option value="112">
+          Yellow Beans
+         </option>
+         <option value="113">
+          Pumpkin
+         </option>
+         <option value="114">
+          Aloe Vera Leaves
+         </option>
+         <option value="115">
+          Butternut
+         </option>
+         <option value="116">
+          Pigeon peas
+         </option>
+         <option value="117">
+          Yellow Passion Fruit
+         </option>
+         <option value="118">
+          Chia Seeds
+         </option>
+         <option value="119">
+          Spinach
+         </option>
+         <option value="120">
+          Okra
+         </option>
+         <option value="121">
+          Horned Melon/ Kiwano
+         </option>
+         <option value="122">
+          Tamarind Fruit
+         </option>
+         <option value="123">
+          Tree Tomatoes
+         </option>
+         <option value="124">
+          soya bean
+         </option>
+         <option value="125">
+          Managu / African nightshade
+         </option>
+         <option value="126">
+          Amaranthus/ Terere
+         </option>
+         <option value="127">
+          Oat
+         </option>
+         <option value="128">
+          Rhodes grass
+         </option>
+         <option value="129">
+          Sagaa/ Spider plant
+         </option>
+         <option value="130">
+          Kunde/ Cowpea leaves
+         </option>
+         <option value="131">
+          Mrenda/ Jute
+         </option>
+         <option value="132">
+          Mitoo / Crotolaria
+         </option>
+         <option value="133">
+          Nderema/ Bacella alba
+         </option>
+         <option value="134">
+          Broccoli
+         </option>
+         <option value="135">
+          Garlic
+         </option>
+         <option value="138">
+          Coconut
+         </option>
+         <option value="141">
+          Simsim
+         </option>
+         <option value="142">
+          Thorn Melon
+         </option>
+        </select>
+        <span class="select2 select2-container select2-container--default" dir="ltr" style="width: 908px;">
+         <span class="selection">
+          <span aria-expanded="false" aria-haspopup="true" aria-labelledby="select2-product-container" class="select2-selection select2-selection--single" role="combobox" tabindex="0">
+           <span class="select2-selection__rendered" id="select2-product-container" title="Select Product">
+            Select Product
+           </span>
+           <span class="select2-selection__arrow" role="presentation">
+            <b role="presentation">
+            </b>
+           </span>
+          </span>
+         </span>
+         <span aria-hidden="true" class="dropdown-wrapper">
+         </span>
+        </span>
+       </div>
+       <div class="form-group">
+        <div class="input-group">
+         <input class="form-control start_date hasDatepicker" id="start_date" name="start_date" placeholder="start date" type="text"/>
+         <span aria-hidden="true" class="fa fa-calendar-o input-group-addon" onclick="$(this).prev().focus();">
+         </span>
+        </div>
+       </div>
+       <div class="form-group">
+        <div class="input-group">
+         <input class="form-control end_date hasDatepicker" id="end_date" name="end_date" placeholder="end date" type="text"/>
+         <span aria-hidden="true" class="fa fa-calendar-o input-group-addon" onclick="$(this).prev().focus();">
+         </span>
+        </div>
+       </div>
+       <div class="form-group">
+        <input class="btn btn-block btn-default" disable_with="Filtering..." name="commit" type="submit" value="Filter"/>
+       </div>
+      </form>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!--footer-->
+  <footer>
+   <div class="container">
+    <div class="row">
+     <!--column 1-->
+     <div class="col-lg-3">
+      <h6>
+       get in touch
+      </h6>
+      <ul>
+       <li>
+        <p>
+         Are you interested in learning more about MFarm?
+              Do you have a new project that you want to talk to us about?
+              Contact us at the number or email address below
+        </p>
+        <p>
+         <i class="fa fa-envelope hue">
+         </i>
+         <a href="mailto:info@mfarm.co.ke">
+          info@mfarm.co.ke
+         </a>
+         <br/>
+         <i class="fa fa-phone hue">
+         </i>
+         +254 110 095 865
+        </p>
+       </li>
+      </ul>
+     </div>
+     <!--column 2-->
+     <div class="col-lg-3">
+      <h6>
+       popular posts
+      </h6>
+      <ul class="media-list">
+       <li class="media">
+        <div class="media-body">
+         <a href="/blog/post/a-beginners-guide-to-onion-farming-in-kenya">
+          A Beginners Guide to Onion Farming in Kenya
+         </a>
+         <br/>
+         <small>
+          <i class="fa fa-calendar-o">
+          </i>
+          Jul 22nd 2016
+         </small>
+        </div>
+       </li>
+       <li class="media">
+        <div class="media-body">
+         <a href="/blog/post/getting-started-on-chili-farming">
+          Getting started on chili farming
+         </a>
+         <br/>
+         <small>
+          <i class="fa fa-calendar-o">
+          </i>
+          Mar 23rd 2016
+         </small>
+        </div>
+       </li>
+       <li class="media">
+        <div class="media-body">
+         <a href="/blog/post/lessons-for-beginners-in-chili-agribusiness">
+          Lessons for beginners in chili agribusiness
+         </a>
+         <br/>
+         <small>
+          <i class="fa fa-calendar-o">
+          </i>
+          Mar 13th 2016
+         </small>
+        </div>
+       </li>
+      </ul>
+     </div>
+     <!--column 3-->
+     <div class="col-lg-3">
+      <h6>
+       latest post
+      </h6>
+      <a href="/blog/post/a-beginners-guide-to-onion-farming-in-kenya">
+       <img alt="Yielding" class="image thumbnail" src="/media/W1siZiIsIjIwMTYvMDcvMjIvMW13eXJ1azA3OV9ZaWVsZGluZy5qcGciXSxbInAiLCJ0aHVtYiIsIjE0MHg2MCMiXV0/152e6783bd6107b8/Yielding.jpg"/>
+      </a>
+      <h4>
+       <a href="/blog/post/a-beginners-guide-to-onion-farming-in-kenya">
+        A Beginners Guide to Onion Farming in Kenya
+       </a>
+      </h4>
+      <small>
+       <i class="fa fa-calendar-o">
+       </i>
+       Jul 22nd 2016
+      </small>
+      <p>
+      </p>
+      <p>
+      </p>
+      <p>
+       50 percent of the red onions in Kenya are imported from Tanzania, as indicated by Food and Agriculture Organisation's (FAO) 2014 report....
+      </p>
+      <p>
+      </p>
+      <p>
+       <a class="more-link" href="/blog/post/a-beginners-guide-to-onion-farming-in-kenya">
+        Continue reading →
+       </a>
+      </p>
+     </div>
+     <!--column 4-->
+     <div class="col-lg-3">
+      <!--flickr-->
+      <h6>
+       thanks for stopping by!
+      </h6>
+      <div class="follow_us2">
+       <a class="zocial twitter" href="https://twitter.com/#!/mfarm_ke" target="_blank">
+       </a>
+       <a class="zocial facebook" href="https://www.facebook.com/pages/M-Farm/168567086502534" target="_blank">
+       </a>
+       <a class="zocial linkedin" href="http://www.linkedin.com/company/mfarm-ltd-k-" target="_blank">
+       </a>
+       <a class="zocial googleplus" href="https://plus.google.com/105305873259684952530?prsrc=3" target="_blank">
+       </a>
+      </div>
+      <div class="copyright">
+       M-Farm Ltd. © 2020 - All Rights Reserved. Developed by M-farm.
+       <br/>
+      </div>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-lg-12 text-center">
+      <div class="pad15">
+      </div>
+      <hr/>
+      <small>
+       Create solutions that empower farmers to work and communicate in new and innovative ways.
+      </small>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="/assets/application-428632528eaa37e1b419213acabda4f48fa810b60c81d8f58909fa8da91746ff.js">
+  </script>
+  <script>
+   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'mfarm-ke'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script');
+        s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+  </script>
+  <script>
+   (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-21117757-1', 'auto');  // Replace with your property ID.
+    ga('send', 'pageview');
+  </script>
+  <div class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" id="ui-datepicker-div">
+  </div>
+ </body>
+</html>
