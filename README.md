@@ -47,3 +47,9 @@ The Selenium WebDriver is one of the most popular tools for Web UI Automation. I
 
 ## Handling AJAX Loading and Infinite Loading
 Sometimes, fetching content from dynamic sites is actually straightforward, as they are highly dependent on API calls. In asynchronous loading, most of the time, data is loaded by making GET and POST requests; you can watch these API calls in the Network tab of Developer Tools.
+
+## Project API EndPoints
+http://rocqjones.pythonanywhere.com/api/products/all<br>
+http://rocqjones.pythonanywhere.com/api/products=fruits<br>
+http://rocqjones.pythonanywhere.com/api/products=cerials<br>
+http://rocqjones.pythonanywhere.com/api/products=vegetables<br>
