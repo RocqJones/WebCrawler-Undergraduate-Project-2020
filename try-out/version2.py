@@ -28,10 +28,10 @@ def crawler(web_driver, url):
             product_name = 'div.post div.description a'
             date_posted = 'div.post small.post-info'
             
-            # print({
-            #     "Product Name" : products.select_one(product_name).text,
-            #     "Date Posted" : products.select_one(date_posted).text.replace("\n","").replace("\xa0","").replace(" ",""),
-            # })
+            print({
+                "Product Name" : products.select_one(product_name).text,
+                "Date Posted" : products.select_one(date_posted).text.replace("\n","").replace("\xa0","").replace(" ",""),
+            })
 
             dictionary_data = {
                 "Product Name" : products.select_one(product_name).text,
@@ -43,6 +43,9 @@ def crawler(web_driver, url):
             with open("sample_data.json", 'a+') as outfile:
                 outfile.write(json_object)
 
+            # d = products.select_one(product_name).text
+            # with open("sample_data.txt", 'a+') as outfile:
+            #     outfile.write(d)
 
 if __name__=='__main__':
     web_driver = driver_configs()
@@ -51,7 +54,7 @@ if __name__=='__main__':
     pages = []
     base_url = 'https://www.mfarm.co.ke/posts'
     pages.append(base_url)
-    for i in range(2, 5):
+    for i in range(2, 10):
         other_pages = 'https://www.mfarm.co.ke/posts?page=' + str(i)
         pages.append(other_pages)
 
