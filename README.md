@@ -3,22 +3,27 @@ Bachelor of Business Information Technology
 
 ## Project structure (dir)
 Undergraduate-Project-2020/
+<br>├── backend
+<br>│   ├── analysis.py
+<br>│   ├── api
+<br>│   │   └── api.py
+<br>│   ├── crawler.py
+<br>│   ├── database.py
+<br>│   ├── db_check.py
+<br>│   ├── db_data
+<br>│   │   ├── analyzed_data.json
+<br>│   │   ├── products.db
+<br>│   │   └── sample_data.json
+<br>│   ├── driver
+<br>│   │   └── chromedriver
+<br>│   └── __pycache__
+<br>│       └── database.cpython-37.pyc
+<br>├── frontend
+<br>│   └── FrontEnd here
 <br>├── LICENSE
-<br>├── main
-<br>│   ├── backend
-<br>│   │   ├── database.py
-<br>│   │   ├── db_data
-<br>│   │   │   └── products.db
-<br>│   │   └── __pycache__
-<br>│   │       └── database.cpython-37.pyc
-<br>│   ├── frontend
-<br>│   └── test_db.py
 <br>├── README.md
 <br>└── try-out
-<br>    ├── links.txt
-<br>    └── scraper.ipynb
-
-### 
+<br>    ├── ...
 
 ## Database Structure
 | id | product_name | date_posted | demand |
