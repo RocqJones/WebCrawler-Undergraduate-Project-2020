@@ -26,13 +26,12 @@ Undergraduate-Project-2020/
 <br>    ├── ...
 
 ## Database Structure
-| id | product_name | date_posted | demand |
-|----| ------------ | ----------- | ------ |
-| 0  |*product name*| *01/01/2000*| 5      |
-| 1  |*product name*| *01/01/2001*| 8      |
+| id | product_name | demand |
+|----| ------------ | ------ |
+| 0  |*product name*| 5      |
+| 1  |*product name*| 8      |
 * **id**: Primary key
 * **product_name**: Text
-* **date_posted**: Text
 * **demand**: INTEGER
 
 ## Crawler Website
