@@ -21,10 +21,8 @@ def fruits_analyser(fruits, database):
         fp_col.append(i[0])
         fd_col.append(i[1])
 
-    # iterate through the lists and insert to TABLE FRUITS
-    for p in fp_col:
-        for d in fd_col:
-            database.insert(p, d)
+    for (p, d) in zip(fp_col, fd_col):
+        database.insert_f(p, d)
 
 def cerials_analyser(cerials, database):
     c_results = {}
@@ -41,9 +39,9 @@ def cerials_analyser(cerials, database):
         cp_col.append(j[0])
         cd_col.append(j[1])
 
-    for p in cp_col:
-        for d in cd_col:
-            database.insert(p, d)
+    for (p, d) in zip(cp_col, cd_col):
+        database.insert_c(p, d)
+            
 
 def vegetables_analyser(vegetables, database):
     v_results = {}
@@ -60,9 +58,9 @@ def vegetables_analyser(vegetables, database):
         vp_col.append(k[0])
         vd_col.append(k[1])
 
-    for p in vp_col:
-        for d in vd_col:
-            database.insert(p, d)
+    for (p, d) in zip(vp_col, vd_col):
+        database.insert_v(p, d)
+            
 
 if __name__ == "__main__":
     fruits = ["Passion", "Mangoes", "Pineapples", "Oranges", "Avocado", "Watermelons", "Strawberries", "Bananas", "Pawpaw"]
@@ -75,4 +73,6 @@ if __name__ == "__main__":
     cerials_analyser(cerials, database)
     vegetables_analyser(vegetables, database)
 
-    print(database.view())
+    print(database.view_f())
+    print(database.view_c())
+    print(database.view_v())

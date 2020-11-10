@@ -10,24 +10,54 @@ class Database:
         self.cur.execute("CREATE TABLE IF NOT EXISTS vegetables (id INTEGER PRIMARY KEY, product_name text, demand INTEGER)")
         self.conn.commit()
 
-    def insert(self, product_name, demand):
+    def insert_f(self, product_name, demand):
         self.cur.execute("INSERT INTO fruits VALUES (NULL,?,?)",(product_name,demand))
+        self.conn.commit()
+
+    def insert_c(self, product_name, demand):
         self.cur.execute("INSERT INTO cerials VALUES (NULL,?,?)",(product_name,demand))
+        self.conn.commit()
+
+    def insert_v(self, product_name, demand):
         self.cur.execute("INSERT INTO vegetables VALUES (NULL,?,?)",(product_name,demand))
         self.conn.commit()
 
-    def view(self):
-        self.cur.execute("SELECT * FROM fruits,cerials,vegetables")
+    def view_f(self):
+        self.cur.execute("SELECT * FROM fruits")
         rows = self.cur.fetchall()
         return rows
 
-    def delete(self, id):
-        self.cur.execute("DELETE FROM fruits,cerials,vegetables WHERE id=?",(id,))
+    def view_c(self):
+        self.cur.execute("SELECT * FROM cerials")
+        rows = self.cur.fetchall()
+        return rows
+
+    def view_v(self):
+        self.cur.execute("SELECT * FROM vegetables")
+        rows = self.cur.fetchall()
+        return rows
+
+    def delete_f(self, id):
+        self.cur.execute("DELETE FROM fruits WHERE id=?",(id,))
         self.conn.commit()
 
-    def update(self, id, product_name, demand):
+    def delete_c(self, id):
+        self.cur.execute("DELETE FROM cerials WHERE id=?",(id,))
+        self.conn.commit()
+    
+    def delete_v(self, id):
+        self.cur.execute("DELETE FROM vegetables WHERE id=?",(id,))
+        self.conn.commit()
+
+    def update_f(self, id, product_name, demand):
         self.cur.execute("UPDATE fruits SET product_name=?, demand=? WHERE id=?", (product_name,demand,id))
+        self.conn.commit()
+
+    def update_c(self, id, product_name, demand):
         self.cur.execute("UPDATE cerials SET product_name=?, demand=? WHERE id=?", (product_name,demand,id))
+        self.conn.commit()
+
+    def update_v(self, id, product_name, demand):
         self.cur.execute("UPDATE vegetables SET product_name=?, demand=? WHERE id=?", (product_name,demand,id))
         self.conn.commit()
 
