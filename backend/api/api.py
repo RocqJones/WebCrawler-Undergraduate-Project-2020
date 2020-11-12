@@ -16,21 +16,12 @@ def dict_factory(cursor, row):
         d[col[0]] = row[idx]
     return d
 
-def set_headers(url):
-    response = flask.Response()
-    response.headers["Access-Control-Allow-Origin"] = url
-    return response
-
 @app.route('/', methods=['GET'])
 def home():
-    url = "https://rocqjones.pythonanywhere.com/"
-    set_headers(url)
     return '''<h1>Products API</h1><p>An API to show demands for products according to number mentions.</p>'''
 
 @app.route('/api/products/all', methods=['GET'])
 def api_all():
-    url = "https://rocqjones.pythonanywhere.com/api/products/all"
-    set_headers(url)
     conn = sqlite3.connect('../db_data/products.db')
     conn.row_factory = dict_factory
     cur = conn.cursor()
@@ -46,8 +37,6 @@ def page_not_found(e):
 
 @app.route('/api/products=fruits', methods=['GET'])
 def api_fruits():
-    url = "https://rocqjones.pythonanywhere.com/api/products=fruits"
-    set_headers(url)
     conn = sqlite3.connect('../db_data/products.db')
     conn.row_factory = dict_factory
     cur = conn.cursor()
@@ -57,8 +46,6 @@ def api_fruits():
 
 @app.route('/api/products=cerials', methods=['GET'])
 def api_cerials():
-    url = "https://rocqjones.pythonanywhere.com/api/products=cerials"
-    set_headers(url)
     conn = sqlite3.connect('../db_data/products.db')
     conn.row_factory = dict_factory
     cur = conn.cursor()
@@ -68,8 +55,6 @@ def api_cerials():
 
 @app.route('/api/products=vegetables', methods=['GET'])
 def api_vegetables():
-    url = "https://rocqjones.pythonanywhere.com/api/products=vegetables"
-    set_headers(url)
     conn = sqlite3.connect('../db_data/products.db')
     conn.row_factory = dict_factory
     cur = conn.cursor()
