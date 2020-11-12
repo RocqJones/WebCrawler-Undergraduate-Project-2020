@@ -1,5 +1,6 @@
 import flask
 import sqlite3
+from flask_cors import CORS
 from flask import request, jsonify
 
 """
@@ -8,6 +9,7 @@ from flask import request, jsonify
 """
 
 app = flask.Flask(__name__)
+CORS(app)
 app.config["DEBUG"] = True
 
 def dict_factory(cursor, row):
