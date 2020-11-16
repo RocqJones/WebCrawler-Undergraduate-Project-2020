@@ -1,6 +1,6 @@
 # Undergraduate-Project-2020
 Bachelor of Business Information Technology
-WEB URL: https://amakoye.github.io/UNDERGRADUATE-PROJECT-FRONTEND/
+WEB URL: <br>https://amakoye.github.io/UNDERGRADUATE-PROJECT-FRONTEND/
 ## Project structure (dir)
 Undergraduate-Project-2020/
 <br>├── backend
