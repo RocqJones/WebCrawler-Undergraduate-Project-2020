@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 # import requests
 
-url = "https://www.mfarm.co.ke/posts"
+url = "https://web.archive.org/web/20221209165243/https://www.mfarm.co.ke/posts"
 
 # Start the WebDriver and load the page
 wd = webdriver.Chrome(executable_path="./driver/chromedriver")
